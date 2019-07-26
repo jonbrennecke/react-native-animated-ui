@@ -22,6 +22,7 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		D0F7B0C782394C5FB082B194 /* libRNBlur.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF653048CD864793AD1FC80D /* libRNBlur.a */; };
 		FC6EA7D621CEA44D007C3B3E /* PassionOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC6EA7AC21CEA44D007C3B3E /* PassionOne-Regular.ttf */; };
 		FC6EA7D721CEA44D007C3B3E /* PT_Sans-Web-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC6EA7D421CEA44D007C3B3E /* PT_Sans-Web-Bold.ttf */; };
 		FC6EA7D821CEA44D007C3B3E /* PT_Sans-Web-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC6EA7D521CEA44D007C3B3E /* PT_Sans-Web-Regular.ttf */; };
@@ -290,6 +291,20 @@
 			remoteGlobalIDString = 358F4ED71D1E81A9004DF814;
 			remoteInfo = RCTBlob;
 		};
+		FC053AFA22EBA52D0028C126 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29FCC3D1BECF403892B57F42 /* RNBlur.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A68BD7BC1BC31318005F02DF;
+			remoteInfo = RNBlur;
+		};
+		FC053AFC22EBA52D0028C126 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29FCC3D1BECF403892B57F42 /* RNBlur.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 64D1BD361EEFE88700F3F219;
+			remoteInfo = "RNBlur-tvOS";
+		};
 		FCDE2C0822EB95360025177E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FCDE2C0422EB95360025177E /* HSAnimatedUI.xcodeproj */;
@@ -318,6 +333,7 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Storybook/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Storybook/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		29FCC3D1BECF403892B57F42 /* RNBlur.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNBlur.xcodeproj; path = "../node_modules/react-native-blur/ios/RNBlur.xcodeproj"; sourceTree = "<group>"; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AC3AC84D4E24EDA91E08877 /* ReactNativeNavigationTests.xctest */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = ReactNativeNavigationTests.xctest; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
@@ -327,6 +343,7 @@
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		BD50A92D35494C8A876C6C03 /* libReactNativeNavigation.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libReactNativeNavigation.a; sourceTree = "<group>"; };
 		C58E7DD208D94D92847F0B1B /* libReactNativeConfig-tvOS.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = "libReactNativeConfig-tvOS.a"; sourceTree = "<group>"; };
+		EF653048CD864793AD1FC80D /* libRNBlur.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNBlur.a; sourceTree = "<group>"; };
 		FC6EA7AC21CEA44D007C3B3E /* PassionOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PassionOne-Regular.ttf"; path = "../assets/fonts/PassionOne-Regular.ttf"; sourceTree = "<group>"; };
 		FC6EA7D421CEA44D007C3B3E /* PT_Sans-Web-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PT_Sans-Web-Bold.ttf"; path = "../assets/fonts/PT_Sans-Web-Bold.ttf"; sourceTree = "<group>"; };
 		FC6EA7D521CEA44D007C3B3E /* PT_Sans-Web-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PT_Sans-Web-Regular.ttf"; path = "../assets/fonts/PT_Sans-Web-Regular.ttf"; sourceTree = "<group>"; };
@@ -353,6 +370,7 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
+				D0F7B0C782394C5FB082B194 /* libRNBlur.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +538,7 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
+				29FCC3D1BECF403892B57F42 /* RNBlur.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -565,6 +584,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		FC053AF622EBA52D0028C126 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC053AFB22EBA52D0028C126 /* libRNBlur.a */,
+				FC053AFD22EBA52D0028C126 /* libRNBlur.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		FC54605921CDAB6600A46BB1 /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
@@ -572,6 +600,7 @@
 				5AC3AC84D4E24EDA91E08877 /* ReactNativeNavigationTests.xctest */,
 				A22375545D454A2599361EEB /* libReactNativeConfig.a */,
 				C58E7DD208D94D92847F0B1B /* libReactNativeConfig-tvOS.a */,
+				EF653048CD864793AD1FC80D /* libRNBlur.a */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
@@ -694,6 +723,10 @@
 				{
 					ProductGroup = 146834001AC3E56700842450 /* Products */;
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+				},
+				{
+					ProductGroup = FC053AF622EBA52D0028C126 /* Products */;
+					ProjectRef = 29FCC3D1BECF403892B57F42 /* RNBlur.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -963,6 +996,20 @@
 			remoteRef = ADBDB9261DFEBF0700ED6528 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		FC053AFB22EBA52D0028C126 /* libRNBlur.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNBlur.a;
+			remoteRef = FC053AFA22EBA52D0028C126 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FC053AFD22EBA52D0028C126 /* libRNBlur.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNBlur.a;
+			remoteRef = FC053AFC22EBA52D0028C126 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		FCDE2C0922EB95360025177E /* libHSAnimatedUI.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1046,11 +1093,13 @@
 					"$(SRCROOT)/../node_modules/@jonbrennecke/react-native-animated-ui/ios",
 					"$(SRCROOT)/../node_modules/@jonbrennecke/react-native-animated-ui/ios",
 					"$(SRCROOT)/../node_modules/@jonbrennecke/react-native-animated-ui/ios",
+					"$(SRCROOT)/../node_modules/react-native-blur/ios",
 				);
 				INFOPLIST_FILE = Storybook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/Storybook\"",
 					"\"$(SRCROOT)/Storybook\"",
 				);
 				OTHER_LDFLAGS = (
@@ -1082,11 +1131,13 @@
 					"$(SRCROOT)/../node_modules/@jonbrennecke/react-native-animated-ui/ios",
 					"$(SRCROOT)/../node_modules/@jonbrennecke/react-native-animated-ui/ios",
 					"$(SRCROOT)/../node_modules/@jonbrennecke/react-native-animated-ui/ios",
+					"$(SRCROOT)/../node_modules/react-native-blur/ios",
 				);
 				INFOPLIST_FILE = Storybook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/Storybook\"",
 					"\"$(SRCROOT)/Storybook\"",
 				);
 				OTHER_LDFLAGS = (

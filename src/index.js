@@ -1,6 +1,3 @@
 // @flow
-import { requireNativeComponent } from 'react-native';
-
-export const FarragoExampleView = requireNativeComponent(
-  'FRGOFarragoExampleView'
-);
+export * from './components';
+export * from './animations';

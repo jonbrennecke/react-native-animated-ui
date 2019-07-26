@@ -21,7 +21,8 @@
   "dependencies": {
     "@jonbrennecke/react-native-animated-ui": "../../",
     "react": "16.6.3",
-    "react-native": "0.57.8"
+    "react-native": "0.57.8",
+    "react-native-blur": "3.2.2"
   },
   "devDependencies": {
     "@babel/core": "7.4.4",

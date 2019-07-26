@@ -1,1 +1,2 @@
-import './example';
+// @flow
+import './BottomSheetModal';

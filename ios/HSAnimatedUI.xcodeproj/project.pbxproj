@@ -27,6 +27,8 @@
 		134814201AA4EA6300B7C361 /* libHSAnimatedUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHSAnimatedUI.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC0B252922AC54E900EE45CA /* FRGOFarragoExampleViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRGOFarragoExampleViewManager.h; sourceTree = "<group>"; };
 		FC0B252A22AC54E900EE45CA /* FRGOFarragoExampleViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.objc; path = FRGOFarragoExampleViewManager.m; sourceTree = "<group>"; tabWidth = 2; };
+		FC8B5D2022EBA2ED00F92806 /* RNBlur.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNBlur.xcodeproj; path = ../RNBlur.xcodeproj; sourceTree = "<group>"; };
+		FCE00B5822EBA32300094489 /* libRNBlur.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNBlur.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCFC983922AC7CD20089D452 /* FarragoExampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = FarragoExampleView.swift; sourceTree = "<group>"; };
 		FCFC983A22AC7CD20089D452 /* FRGOFarrago-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FRGOFarrago-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,8 +59,27 @@
 				FCFC983A22AC7CD20089D452 /* FRGOFarrago-Bridging-Header.h */,
 				FC0B252922AC54E900EE45CA /* FRGOFarragoExampleViewManager.h */,
 				FC0B252A22AC54E900EE45CA /* FRGOFarragoExampleViewManager.m */,
+				FC8B5D2A22EBA2FB00F92806 /* Libraries */,
 				134814211AA4EA7D00B7C361 /* Products */,
+				FCE00B5722EBA32300094489 /* Frameworks */,
 			);
+			sourceTree = "<group>";
+		};
+		FC8B5D2A22EBA2FB00F92806 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				FC8B5D2022EBA2ED00F92806 /* RNBlur.xcodeproj */,
+			);
+			name = Libraries;
+			path = "../node_modules/react-native-blur/ios/Libraries";
+			sourceTree = "<group>";
+		};
+		FCE00B5722EBA32300094489 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCE00B5822EBA32300094489 /* libRNBlur.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

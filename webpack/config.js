@@ -8,10 +8,20 @@ const root = path.resolve(__dirname, '..');
 
 const rules = [
   {
-      test: /\.jsx?$/,
-      exclude: /node_modules/,
-      use: 'babel-loader'
-  }
+    test: /\.jsx?$/,
+    exclude: /node_modules\/(?!(@react-native-blur)\/).*/,
+    use: 'babel-loader'
+  },
+  {
+    test: /\.jsx?$/,
+    include: /node_modules\/(?!(@react-native-blur)\/).*/,
+    use: {
+      loader: 'babel-loader',
+      options: {
+        presets: ["module:metro-react-native-babel-preset"]
+      }
+    }
+  },
 ];
 
 const outputPath = path.resolve(root, 'build');
@@ -42,13 +52,13 @@ const resolve = {
     'node_modules',
     path.resolve(root, './node_modules')
   ],
-  extensions: ['.js', '.jsx'],
+  extensions: ['.js', '.jsx', '.ios.js'], // FIXME: only supports iOS files
   alias: aliases
 }
 
 module.exports = {
   externals: {
-    'react-native': 'react-native'
+    'react-native': 'react-native',
   },
   mode: 'production',
   target: 'web',
