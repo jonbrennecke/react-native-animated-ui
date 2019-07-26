@@ -1,5 +1,5 @@
 #import "FRGOFarragoExampleViewManager.h"
-#import "FRGOFarrago-Swift.h"
+#import "HSAnimatedUI-Swift.h"
 
 @implementation FRGOFarragoExampleViewManager
 

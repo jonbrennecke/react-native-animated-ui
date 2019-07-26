@@ -24,7 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		134814201AA4EA6300B7C361 /* libFRGOFarrago.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFRGOFarrago.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		134814201AA4EA6300B7C361 /* libHSAnimatedUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHSAnimatedUI.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC0B252922AC54E900EE45CA /* FRGOFarragoExampleViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRGOFarragoExampleViewManager.h; sourceTree = "<group>"; };
 		FC0B252A22AC54E900EE45CA /* FRGOFarragoExampleViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.objc; path = FRGOFarragoExampleViewManager.m; sourceTree = "<group>"; tabWidth = 2; };
 		FCFC983922AC7CD20089D452 /* FarragoExampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = FarragoExampleView.swift; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		134814211AA4EA7D00B7C361 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				134814201AA4EA6300B7C361 /* libFRGOFarrago.a */,
+				134814201AA4EA6300B7C361 /* libHSAnimatedUI.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,9 +64,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		58B511DA1A9E6C8500147676 /* FRGOFarrago */ = {
+		58B511DA1A9E6C8500147676 /* HSAnimatedUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "FRGOFarrago" */;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "HSAnimatedUI" */;
 			buildPhases = (
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
@@ -76,9 +76,9 @@
 			);
 			dependencies = (
 			);
-			name = FRGOFarrago;
+			name = HSAnimatedUI;
 			productName = RCTDataManager;
-			productReference = 134814201AA4EA6300B7C361 /* libFRGOFarrago.a */;
+			productReference = 134814201AA4EA6300B7C361 /* libHSAnimatedUI.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +96,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "FRGOFarrago" */;
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "HSAnimatedUI" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -109,7 +109,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				58B511DA1A9E6C8500147676 /* FRGOFarrago */,
+				58B511DA1A9E6C8500147676 /* HSAnimatedUI */,
 			);
 		};
 /* End PBXProject section */
@@ -227,7 +227,7 @@
 					"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = FRGOFarrago;
+				PRODUCT_NAME = HSAnimatedUI;
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "FRGOFarrago-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -252,7 +252,7 @@
 					"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = FRGOFarrago;
+				PRODUCT_NAME = HSAnimatedUI;
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "FRGOFarrago-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -262,7 +262,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "FRGOFarrago" */ = {
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "HSAnimatedUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58B511ED1A9E6C8500147676 /* Debug */,
@@ -271,7 +271,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "FRGOFarrago" */ = {
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "HSAnimatedUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58B511F01A9E6C8500147676 /* Debug */,

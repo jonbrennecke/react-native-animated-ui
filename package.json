@@ -1,5 +1,5 @@
 {
-  "name": "@jonbrennecke/farrago",
+  "name": "@jonbrennecke/react-native-animated-ui",
   "version": "1.0.9",
   "description": "",
   "main": "build/index.js",
@@ -27,7 +27,7 @@
     "react-native": "^0.57.0"
   },
   "repository": {
-    "url": "https://github.com/jonbrennecke/farrago",
+    "url": "https://github.com/jonbrennecke/react-native-animated-ui",
     "type": "git"
   },
   "devDependencies": {
